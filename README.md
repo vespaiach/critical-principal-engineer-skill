@@ -4,11 +4,21 @@ A Claude Code skill that activates a rigorous Principal Engineer / Senior Archit
 
 ## Install
 
-Clone the repo and symlink the skill into your Claude Code skills directory:
+Clone the repo, then symlink the skill into your runtime's skills directory.
+
+**Claude Code**
 
 ```bash
 git clone https://github.com/vespaiach/critical-principal-engineer-skill.git
 ln -s "$(pwd)/critical-principal-engineer-skill/critical-principal-engineer" ~/.claude/skills/critical-principal-engineer
+```
+
+**Codex** (also works for Copilot CLI)
+
+```bash
+git clone https://github.com/vespaiach/critical-principal-engineer-skill.git
+mkdir -p ~/.agents/skills
+ln -s "$(pwd)/critical-principal-engineer-skill/critical-principal-engineer" ~/.agents/skills/critical-principal-engineer
 ```
 
 ## Usage
