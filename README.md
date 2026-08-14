@@ -1,6 +1,6 @@
 # critical-principal-engineer-skill
 
-A Claude Code skill that activates a rigorous Principal Engineer / Senior Architect review persona.
+A skill that activates a rigorous Principal Engineer / Senior Architect review persona.
 
 ## Install
 
