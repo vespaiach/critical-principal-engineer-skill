@@ -6,18 +6,19 @@ A skill that activates a rigorous Principal Engineer / Senior Architect review p
 
 Clone the repo, then symlink the skill into your runtime's skills directory.
 
+```bash
+git clone https://github.com/vespaiach/critical-principal-engineer-skill.git critical-principal-engineer-skill
+```
+
 **Claude Code**
 
 ```bash
-git clone https://github.com/vespaiach/critical-principal-engineer-skill.git
 ln -s "$(pwd)/critical-principal-engineer-skill/critical-principal-engineer" ~/.claude/skills/critical-principal-engineer
 ```
 
 **Codex** (also works for Copilot CLI)
 
 ```bash
-git clone https://github.com/vespaiach/critical-principal-engineer-skill.git
-mkdir -p ~/.agents/skills
 ln -s "$(pwd)/critical-principal-engineer-skill/critical-principal-engineer" ~/.agents/skills/critical-principal-engineer
 ```
 
